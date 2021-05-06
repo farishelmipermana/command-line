@@ -1,0 +1,54 @@
+Command Line adalah tool untuk berinteraksi dengan komputer dengan hanya menggunakan text (juga dikenal sebagai text interface) daripada metode lain seperti klik dan scrolling.
+
+// membuat file
+touch file_name
+
+// menampilkan konten dari file
+cat file_name
+
+// membuat direktori
+mkdir directory_name
+
+// Berpindah ke direktori lain
+cd directory_name
+
+// Direktori Root
+Pada struktur file komputer, ada direktori root pada bagian atas. Direktori root direpresentasikan dengan /.
+(Direktori root dihilangkan pada struktur file di layar latihan.)
+
+// Memeriksa direktori saat ini
+pwd
+
+// Menampilkan konten direktori
+ls //Perlu dicatat bahwa command ls hanya akan menampilkan direktori dan file yang merupakan anak langsung dari direktori saat ini.
+
+// Directory Induk
+cd .. 
+
+//cd Tanpa Menetapkan Sebuah Direktori
+Jika Anda menjalankan cd tanpa menetapkan sebuah direktori, Anda dapat berpindah ke apa yang disebut direktori awal (home).
+Direktori awal diwakilkan tanda ~
+
+// memindahkan file
+mv file_yang_dipindahkan direktori_tujuan
+
+// memindahkna direktori
+mv direktori_yang_dipindahkan direktori_tujuan
+
+// mengubah nama file
+mv nama_file_lama nama_file_baru
+
+// mengubah nama direktori
+mv nama_direktori_lama nama_direktori_baru
+
+// menyalin file
+cp file_yang_disalin nama_file_baru
+
+// menyalin direktori 
+cp -r directori_yang_disalin nama_directori_baru
+
+// menghapus file
+rm file_yang_dihapus
+
+// menghapus direktori
+rm -r direktori_yang_dihapus
